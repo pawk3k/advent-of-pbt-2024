@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "target": "ES2022",
+    "lib": ["ES2015"],
+    "jsx": "react",
+    "allowImportingTsExtensions": true,
+    "checkJs": true,
+    "experimentalDecorators": true
+  },
+  "exclude": ["node_modules", "**/node_modules/*"]
+}

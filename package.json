@@ -1,0 +1,15 @@
+{
+  "private": "true",
+  "name": "fast-check-tutorial",
+  "version": "0.0.0",
+  "devDependencies": {
+    "fast-check": "*",
+    "vitest": "*"
+  },
+  "scripts": {
+    "test": "vitest"
+  },
+  "dependencies": {
+    "zod-fast-check": "^0.10.1"
+  }
+}
