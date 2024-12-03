@@ -1,5 +1,6 @@
 import fc from "fast-check";
 import { expect, test } from "vitest";
+import { dropLettersFromDuplicatedSenders } from "./day2";
 
 const schema = fc.array(
   fc.record({
@@ -16,7 +17,3 @@ test("helping Santa", () => {
     })
   );
 });
-
-function dropLettersFromDuplicatedSenders(letters) {
-  return letters;
-}
