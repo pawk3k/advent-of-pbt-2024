@@ -4,6 +4,7 @@
   "name": "fast-check-tutorial",
   "version": "0.0.0",
   "devDependencies": {
+    "@types/node": "^22.10.1",
     "fast-check": "*",
     "vitest": "*"
   },
